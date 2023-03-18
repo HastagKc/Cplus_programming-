@@ -16,7 +16,23 @@ int main()
     int arr1[5] = {10, 20, 30, 40, 50};
 
     // accessing an array
-    cout << arr1[1];
+    cout << arr1[1] << endl;
+
+    // modifiding an array element
+    int firstArr[5] = {10, 20, 30, 40, 50};
+    cout << "Printing original array \n";
+
+    for (int i = 0; i < 5; i++)
+    {
+        cout << firstArr[i] << " ";
+    }
+    firstArr[2] = 80;
+
+    cout << "\n After modification of an array: \n ";
+    for (int i = 0; i < 5; i++)
+    {
+        cout << firstArr[i] << " ";
+    }
 
     return 0;
 }
