@@ -10,8 +10,13 @@ int main()
 
     // declaration of an array
     // data types name_of_array [size_0f_array];
+    int arr[5];
 
     // initialization of an array
+    int arr1[5] = {10, 20, 30, 40, 50};
+
+    // accessing an array
+    cout << arr1[1];
 
     return 0;
 }
