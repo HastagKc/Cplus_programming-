@@ -6,7 +6,10 @@ void bubbleSort(int arr[], int size)
 {
     // implementing bubble sort algo in an array
     // this this case each element get swap and compare sorted and non sorted
-    /* for (int i = 0; i < size - 1; i++)
+    /*
+
+
+    for (int i = 0; i < size - 1; i++)
     {
         for (int j = 0; j < size - 1; j++)
         {
@@ -17,7 +20,10 @@ void bubbleSort(int arr[], int size)
                 arr[j + 1] = temp;
             }
         }
-    } */
+    }
+
+
+    */
 
     // 2nd method
     bool swapped = false;
