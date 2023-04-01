@@ -27,7 +27,7 @@ struct Person
 int main()
 {
     // initailizing struct (person)
-    Person p1 = {"Kshittiz", 22, 60};
+    struct Person p1 = {"Kshittiz", 22, 60};
     /* cout << "Name: " << p1.name << endl;
     cout << "Age: " << p1.age << endl;
     cout << "Weight: " << p1.weight << endl; */
