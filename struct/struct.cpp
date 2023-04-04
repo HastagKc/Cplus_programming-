@@ -4,6 +4,7 @@
  struct is same as class without encapsulation and method
 
  Note: we can not define method in struct
+
 */
 #include <iostream>
 using namespace std;
