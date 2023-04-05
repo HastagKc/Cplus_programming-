@@ -26,5 +26,7 @@ int main()
         cout << p[i] << " ";
     }
 
+    delete[] p;
+
     return 0;
 }
